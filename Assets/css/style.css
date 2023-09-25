@@ -1,0 +1,480 @@
+@import url('./reset.css');
+@import url('./font.css');
+
+body {
+    background-color: #78abc1;
+}
+
+.main-container {
+    background-color: #dcf1ff;
+    width: 800px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+}
+
+header img {
+    padding-top: 30px;
+    padding-left: 40px;
+    width: 150px;
+    height: 50px;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: inherit;
+    font-size: 20px;
+    letter-spacing: normal;
+    padding-top: 30px;
+    padding-left: 300px;
+}
+
+header ul a {
+    color: black;
+}
+
+header ul a:hover {
+    background-color: #78abc1;
+}
+
+.section-drive {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.section-drive h1 {
+    font-size: 42px;
+    font-family: Global;
+    font-weight: bold;
+    padding-left: 40px;
+}
+
+.section-drive p {
+    color: rgb(16, 17, 18);
+    direction: ltr;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 150%;
+    text-align: left;
+    width: 700px;
+    padding-left: 40px;
+}
+
+.section-drive button {
+    width: 180px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #0056f1;
+    font-size: 16px;
+    margin-left: 40px;
+}
+
+.section-drive button a {
+    color: white;
+}
+
+.section-drive img {
+    width: 100%;
+    height: 350px;
+}
+
+.middle-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: white;
+}
+
+.middle-info h2 {
+    color: rgb(0, 0, 0);
+    direction: ltr;
+    font-family: inherit;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 150%;
+    margin-top: 20px;
+}
+
+.boxes {
+    display: flex;
+    background-color: white;
+    height: 250px;
+    gap: 20px;
+}
+
+.first-box img,
+.second-box img,
+.third-box img {
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.first-box h3,
+.second-box h3,
+.third-box h3 {
+    color: rgb(0, 0, 0);
+    direction: ltr;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 150%;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.first-box p,
+.second-box p,
+.third-box p {
+    width: 220px;
+    color: rgb(16, 17, 18);
+    direction: ltr;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 150%;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.section-percent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dcf1ff;
+    flex-direction: column;
+    height: 200px;
+}
+
+.section-percent h3 a {
+    color: rgb(0, 86, 241);
+    direction: ltr;
+    font-family: inherit;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 150%;
+    margin-top: 30px;
+}
+
+.section-percent span {
+    color: rgb(0, 0, 0);
+    direction: ltr;
+    font-family: inherit;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 150%;
+}
+
+.section-percent div {
+    width: 750px;
+    border: 1px dashed blue;
+    margin-top: 20px;
+}
+
+.cars,
+.section-cars {
+    display: flex;
+    flex-direction: row;
+    background-color: #dcf1ff;
+}
+
+.first-cars,
+.second-cars,
+.section-first-cars,
+.section-second-cars {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.first-cars h3,
+.second-cars h3,
+.section-first-cars h3,
+.section-second-cars h3 {
+    color: rgb(0, 0, 0);
+    direction: ltr;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 150%;
+    padding-top: 10px;
+}
+
+.first-cars p,
+.second-cars p,
+.section-first-cars p,
+.section-second-cars p {
+    color: rgb(16, 17, 18);
+    direction: ltr;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 150%;
+    padding-top: 10px;
+    width: 350px;
+    text-align: left;
+}
+
+.first-cars span,
+.second-cars span,
+.section-first-cars span,
+.section-second-cars span {
+    letter-spacing: normal;
+    line-height: 150%;
+    direction: ltr;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+
+.first-cars span a,
+.second-cars span a,
+.section-first-cars a,
+.section-second-cars a {
+    color: #0056f1;
+}
+
+.explore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #dcf1ff;
+    height: 200px;
+}
+
+.explore div {
+    width: 750px;
+    border: 1px dashed blue;
+    margin-top: 50px;
+}
+
+.explore button {
+    width: 180px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #0056f1;
+    font-size: 16px;
+    margin-top: 30px;
+    border: #0056f1;
+}
+
+.explore button a {
+    color: white;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    background-color: #0056f1;
+    height: 300px;
+}
+
+.contact-first {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-first img {
+    width: 150px;
+    height: 20px;
+    padding-left: 40px;
+    margin-top: 70px;
+}
+
+.contact-first h3 {
+    color: rgb(255, 255, 255);
+    direction: ltr;
+    font-family: inherit;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 150%;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.contact-first p {
+    color: rgb(255, 255, 255);
+    direction: ltr;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 150%;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 10px;
+    width: 400px;
+}
+
+.contact-second {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-second img {
+    width: 150px;
+    height: 150px;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.contact-second a {
+    color: rgb(255, 255, 255);
+    direction: ltr;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 180%;
+    padding-left: 120px;
+    padding-top: 10px;
+}
+
+
+.final-rent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+}
+
+.final-rent img {
+    padding-top: 50px;
+}
+
+.final-rent span {
+    padding-top: 20px;
+}
+
+.final-rent span a {
+    color: rgb(176, 176, 176);
+    direction: ltr;
+    font-family: inherit;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 120%;
+}
+
+.final-rent button {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #0056f1;
+    margin-top: 20px;
+    border: #0056f1;
+    font-family: inherit;
+    line-height: 2;
+    letter-spacing: normal;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.final-rent button a {
+    color: rgb(255, 255, 255);
+}
+
+.final-rent .final-photo {
+    width: 100%;
+}
+
+.foot {
+    background-color: #0056f1;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+}
+
+.social-media,
+.address-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media h3,
+.address-card h3 {
+    color: rgb(255, 255, 255);
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 120%;
+    text-align: left;
+    letter-spacing: normal;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.address-card h3 {
+    padding-left: 130px;
+}
+
+.social-media p {
+    color: #c0c0c0;
+    text-decoration: inherit;
+    word-break: break-word;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 120%;
+    text-align: left;
+    letter-spacing: normal;
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 330px;
+}
+
+.social-media .icon {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.address-card span,
+.address-card .mind {
+    color: #c0c0c0;
+    text-decoration: inherit;
+    word-break: break-word;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 120%;
+    text-align: left;
+    letter-spacing: normal;
+    padding-left: 130px;
+    padding-top: 20px;
+}
+
+.address-card .city {
+    padding-top: 0px;
+}
+
+.address-card .mind {
+    padding-top: 30px;
+}
+
+.address-card .mind a {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
